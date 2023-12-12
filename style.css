@@ -39,3 +39,62 @@ width: 500px;
     padding: 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+.myImg{
+    margin: 10px;
+    width: 220px;
+    height: 400px;
+    /* background-color: black; */
+    object-fit: contain;
+}
+.bgImg{
+    background: url("./img/me.jpg");
+    margin: 10px;
+    width: 300px;
+    height: 400px;
+    background-size: contain;
+    background-color: antiquewhite;
+    background-repeat: no-repeat;
+}
+.logo{
+    width:5%;
+    height:2%;
+}
+nav{
+    display: flex;
+    background-color: antiquewhite;
+    justify-content: space-between;
+    padding: 8px;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    color: rgb(48, 162, 6);
+    gap: 10px;
+}
+nav ul li{
+    list-style: none;
+}
+/* nav ul li a{
+    text-decoration: none;
+    color: rgb(18, 155, 18);
+}  */
+.link{
+    text-decoration: none;
+    color:rgb(128, 0, 255);
+    transition: all 0.3s ease-in-out;
+}
+ /* .link:link{
+    color: rgb(18, 155, 18);
+} */
+.link:visited{
+    color:rgb(255, 0, 106);
+} 
+.link:hover{
+    color:rgb(25, 235, 25);
+    background-color: black;
+    font-size: 15px;
+    padding: 5px 8px;
+    border-radius: 15px;
+} 
+
+
